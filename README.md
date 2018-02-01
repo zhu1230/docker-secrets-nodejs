@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/zhu1230/docker-secrets.svg?branch=master)](https://travis-ci.org/zhu1230/docker-secrets)
+
 ### USAGE
 
 to get credential data from docker secrets or environment variables in nodejs, the secrets take precedence over ENVs.
