@@ -7,7 +7,10 @@ let config = null;
 const init = () => {
     if (fs.existsSync(SECRETS_DIR)) {
         const files = fs.readdirSync(SECRETS_DIR);
-        config = files.reduce((resultObject, file) => resultObject[file] = fs.readFileSync(path.join(SECRETS_DIR, file), 'utf8').toString().trim(), {});
+        config = files.reduce((resultObject, file) => {
+            resultObject[file] = fs.readFileSync(path.join(SECRETS_DIR, file), 'utf8').toString().trim();
+            return resultObject;
+        }, {});
     }
     else {
         config = {};
