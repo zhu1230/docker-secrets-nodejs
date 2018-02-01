@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/zhu1230/docker-secrets.svg?branch=master)](https://travis-ci.org/zhu1230/docker-secrets)
+[![npm version](https://badge.fury.io/js/docker-secrets-nodejs.svg)](https://badge.fury.io/js/docker-secrets-nodejs)
 
 ### USAGE
 
