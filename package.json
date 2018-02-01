@@ -1,0 +1,24 @@
+{
+  "name": "docker-secrets-nodejs",
+  "version": "1.0.0",
+  "description": "Small utility to get credential data from docker secrets or environment variables.",
+  "main": "dist/index.ts",
+  "scripts": {
+    "build": "tsc --module commonjs --target es6 --outDir ./dist ./src/*.ts",
+    "test": "mocha --recursive --require ts-node/register test/*"
+  },
+  "keywords": [
+    "docker",
+    "secrets",
+    "nodejs"
+  ],
+  "author": "Vincent Zhu",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^9.4.0",
+    "mocha": "^5.0.0",
+    "ts-node": "^4.1.0",
+    "typescript": "^2.7.1",
+    "webpack": "^3.10.0"
+  }
+}
