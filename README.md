@@ -6,7 +6,7 @@
 to get credential data from docker secrets or environment variables in nodejs, the secrets take precedence over ENVs.
 
 ~~~
-import * as secrets from "docker-secrets"
+import * as secrets from "docker-secrets-nodejs"
 
 secrets.setupSecretsDir("/dir")  // optional, default directory is '/run/secrets'
 secrets.get("env_variable_a") // will try to get env_variable_a from /run/secrets/env_variable_a 
