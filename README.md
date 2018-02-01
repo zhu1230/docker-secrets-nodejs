@@ -13,13 +13,13 @@ secrets.get("env_variable_a") // will try to get env_variable_a from /run/secret
 							  // or ENV_VARIABLE_A from environment variables
 ~~~
 
-### CONVENTIONS
+#### CONVENTIONS
 
 several conventions for this library:
 
 	* the secret name has to always be in lowercase from secrets of docker.
 	* the environment variable name has to be in uppercase.
-	* it doesn't matter when you call secrets.get using lowercase or uppercase, it converts accordingly.
+	* it doesn't matter whether you pass the parametr in "secrets.get()" using lowercase or uppercase, it converts accordingly.
 
 
 Any suggestion is welcome!
