@@ -1,6 +1,6 @@
 {
   "name": "docker-secrets-nodejs",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Small utility to get credential data from docker secrets or environment variables.",
   "main": "dist/index.js",
   "scripts": {
